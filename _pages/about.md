@@ -2,33 +2,72 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Junior Researcher at <a href="https://www.dfki.de/web">DFKI</a>, Data Science and its Applications
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: sum-prof.jpeg
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>mukherjee [dot] sumantrak [at] gmail [dot] com</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: false
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  limit: 3
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
+<div class="home-hero">
+  <p class="home-kicker">Research</p>
+  <p class="home-lead">
+    I work on multi-armed bandits, uncertainty quantification, and sample-efficient decision-making under limited feedback.
+  </p>
+  <p class="home-aside">
+    I am currently a Junior Researcher at <a href="https://www.dfki.de/web" target="_blank" rel="noopener noreferrer">DFKI</a> in the
+    <a href="https://dsa.dfki.de/" target="_blank" rel="noopener noreferrer">Data Science and its Applications</a> group, where I work under
+    <a href="https://dsa.dfki.de/team/members/admin/" target="_blank" rel="noopener noreferrer">Prof. Sebastian Vollmer</a>.
+    I graduated from <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener noreferrer">BITS Pilani</a> in 2023 with a degree in
+    Electronics and Instrumentation Engineering. Outside research, I like watching and discussing movies, travelling, and cooking new dishes when I am not too tired.
+    I also keep a quiet <a href="{{ '/acknowledgments/' | relative_url }}">acknowledgments page</a> for people who have been especially kind to me.
+  </p>
+  <p class="home-aside home-aside-link">
+    For a more detailed account of my research, see the <a href="{{ '/research/' | relative_url }}">research page</a>. I will add a longer research statement there over time.
+  </p>
+  <div class="home-links home-links-social">
+    <a class="home-link" href="mailto:mukherjee.sumantrak@gmail.com">Email</a>
+    <a class="home-link" href="https://github.com/sumantrak" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a class="home-link" href="https://www.linkedin.com/in/sumantrak" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a class="home-link" href="https://scholar.google.com/citations?user=UV2fWZ0AAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a>
+    <a class="home-link" href="https://www.lesswrong.com/users/sumantrak" target="_blank" rel="noopener noreferrer">LessWrong</a>
+  </div>
+</div>
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<!--home-panel-end-->
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<div class="theme-grid">
+  <a class="theme-card theme-link-card" href="{{ '/research/#bandits-uq' | relative_url }}">
+    <div>
+      <p class="theme-label">Current focus</p>
+      <h2>Multi-Armed Bandits and Uncertainty Quantification</h2>
+      <p>Sequential decision-making with better priors, transfer, and calibrated uncertainty.</p>
+    </div>
+  </a>
+  <a class="theme-card theme-link-card" href="{{ '/research/#causal-learning' | relative_url }}">
+    <div>
+      <p class="theme-label">Interface</p>
+      <h2>Causal Structure for Efficient Learning</h2>
+      <p>Causal discovery and causal structure leveraged for sample efficiency and transfer.</p>
+    </div>
+  </a>
+  <a class="theme-card theme-link-card" href="{{ '/research/#event-modeling' | relative_url }}">
+    <div>
+      <p class="theme-label">Earlier work</p>
+      <h2>Spatio-Temporal Event Modeling</h2>
+      <p>Earlier work on interpretable point processes, benchmarks, and counterfactual event data.</p>
+    </div>
+  </a>
+</div>

@@ -15,6 +15,23 @@ table.table-cv {
   }
 }
 
+.cv-entry-row {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.cv-year-col {
+  flex: 0 0 104px;
+  max-width: 104px;
+}
+
+.cv-body-col {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding-left: 0.6rem;
+}
+
 a.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;
@@ -171,6 +188,23 @@ ul.timeline li {
   min-height: 2.2rem;
   color: var(--global-text-color);
   list-style-position: inside;
+}
+
+@media (max-width: 767px) {
+  .cv-entry-row {
+    flex-wrap: wrap;
+  }
+
+  .cv-year-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: left !important;
+    margin-bottom: 0.35rem;
+  }
+
+  .cv-body-col {
+    padding-left: 0;
+  }
 }
 
 span.badge-toc {

@@ -17,6 +17,13 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <div class="site-bg" aria-hidden="true">
+      <div class="site-bg-gradient site-bg-gradient-a"></div>
+      <div class="site-bg-gradient site-bg-gradient-b"></div>
+      <div class="site-bg-gradient site-bg-gradient-c"></div>
+      <div class="site-bg-gradient site-bg-gradient-d"></div>
+    </div>
+
     <!-- Header -->
     {% include header.liquid %}
 

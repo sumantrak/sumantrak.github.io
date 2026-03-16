@@ -1,9 +1,38 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"AAAI":
+  url: https://aaai.org/conference/aaai/
+  color: "#c0392b"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"BDU":
+  url: https://bayesdualuse.github.io/
+  color: "#2c7a7b"
 
-"Vision":
-  color: "#009f36"
+"CausScien":
+  color: "#8e6c00"
+
+"DSHealth":
+  color: "#5b6c5d"
+
+"DiffSys":
+  color: "#7d4e9f"
+
+"ICML":
+  url: https://icml.cc/
+  color: "#b83280"
+
+"Preprint":
+  color: "#4a5568"
+
+"SciRep":
+  url: https://www.nature.com/srep/
+  color: "#3b82f6"
+
+"STAT":
+  url: https://onlinelibrary.wiley.com/journal/20491573
+  color: "#b5651d"
+
+"STCausal":
+  color: "#6b7280"
+
+"TMLR":
+  url: https://jmlr.org/tmlr/
+  color: "#0f766e"
