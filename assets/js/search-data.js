@@ -30,12 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-visited-saarbrucken-for-the-workshop-on-safe-and-causally-informed-deep-rl-on-may-23-24-2024",
+        },{id: "news-visited-saarbrucken-for-the-workshop-on-safe-and-causally-informed-deep-rl-on-may-23-24-2024",
           title: 'Visited Saarbrucken for the workshop on Safe and Causally Informed Deep RL on...',
           description: "",
           section: "News",},{id: "news-released-the-preprint-graph-agnostic-causal-bayesian-optimisation",
