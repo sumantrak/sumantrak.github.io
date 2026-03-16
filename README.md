@@ -1,45 +1,11 @@
 # Sumantrak Mukherjee
 
-This repository contains the source code for my personal academic website.
+I am a researcher at the [German Research Center for Artificial Intelligence (DFKI)](https://www.dfki.de/), where I work in the [Data Science and its Applications](https://dsa.dfki.de/) group under [Prof. Sebastian Vollmer](https://dsa.dfki.de/team/members/admin/).
 
-The site is built with [Jekyll](https://jekyllrb.com/) and customized from the
-[al-folio](https://github.com/alshedivat/al-folio) theme, but the content,
-structure, and styling here are specific to my own research website.
+My research is mainly about sequential decision-making under uncertainty. I am particularly interested in multi-armed bandits, uncertainty quantification, and causal methods for decision-making. Earlier, I also worked on spatio-temporal event modeling.
 
-## Website
+I graduated from BITS Pilani in 2023 with a degree in Electronics and Instrumentation Engineering.
 
-- Current deployment target: `https://sumantrak.github.io`
-- Planned custom domain: `https://sumantrak.de`
+Outside research, I enjoy watching and discussing movies, travelling, and cooking new dishes when I have the energy for it.
 
-## Research
-
-The website is organized around my work in:
-
-- multi-armed bandits
-- uncertainty quantification
-- causal decision-making
-- spatio-temporal event modeling
-
-## Local development
-
-Run locally from the repository root:
-
-```bash
-bundle exec jekyll serve --livereload
-```
-
-Then open:
-
-```text
-http://127.0.0.1:4000/
-```
-
-## Deployment
-
-This site is intended to be deployed through GitHub Pages using GitHub Actions,
-not the default branch-based Jekyll builder.
-
-## Notes
-
-- The site includes custom pages for research, publications, CV, news, and acknowledgments.
-- Some content is still being refined over time, especially project pages and publication links.
+Website: [sumantrak.github.io](https://sumantrak.github.io)
