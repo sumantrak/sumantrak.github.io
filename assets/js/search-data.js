@@ -30,51 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-designing-objective-functions-for-multi-armed-bandits",
-        
-          title: "Designing Objective Functions for Multi-Armed Bandits",
-        
-        description: "How different objective functions reshape exploration, regret, risk, and decision-making goals in bandit problems.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/designing-objective-functions-for-multi-armed-bandits/";
-          
-        },
-      },{id: "post-a-bird-s-eye-view-of-causal-inference-frameworks",
-        
-          title: "A Bird’s-Eye View of Causal Inference Frameworks",
-        
-        description: "A structured overview of major causal inference paradigms, their assumptions, techniques, and practical applicability.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/birds-eye-view-causal-inference-frameworks/";
-          
-        },
-      },{id: "post-a-bird-s-eye-view-of-multi-armed-bandits",
-        
-          title: "A Bird’s-Eye View of Multi-Armed Bandits",
-        
-        description: "A structured exploration of bandit problem types, their assumptions, modeling frameworks, and real-world applicability.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/birds-eye-view-multi-armed-bandits/";
-          
-        },
-      },{id: "post-smarter-decisions-with-multi-armed-bandits",
-        
-          title: "Smarter Decisions with Multi-Armed Bandits",
-        
-        description: "Explore the theory, objectives, feedback types, and real-world use cases of Multi-Armed Bandits in sequential decision-making.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/smarter-decisions-with-multi-armed-bandits/";
-          
-        },
-      },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
