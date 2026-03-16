@@ -187,15 +187,16 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
+  - _books/
   - _posts/
   - assets/jupyter/blog.ipynb
   - _pages/about_einstein.md
+  - _pages/books.md
   - purgecss.config.js
   - README.md
   - readme_preview/
   - vendor
 keep_files:
-  - CNAME
   - .nojekyll
 
 # Plug-ins
