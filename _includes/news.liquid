@@ -2,14 +2,17 @@
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
     <div
-      class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
+      class="table-responsive news-scroll-frame"
+      {% assign visible_news_limit = page.announcements.limit | default: 3 %}
+      {% if include.limit and page.announcements.scrollable and news_size > visible_news_limit %}
+        style="max-height: calc(3.25rem * {{ visible_news_limit }}); overflow-y: auto;"
       {% endif %}
     >
       <table class="table table-sm table-borderless">
         {% assign news = site.news | reverse %}
-        {% if include.limit and page.announcements.limit %}
+        {% if include.limit and page.announcements.scrollable and news_size > visible_news_limit %}
+          {% assign news_limit = news_size %}
+        {% elsif include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
         {% else %}
           {% assign news_limit = news_size %}

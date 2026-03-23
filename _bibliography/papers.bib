@@ -1,13 +1,34 @@
 ---
 ---
 
-@inproceedings{mukherjee2025clam,
+@misc{yamaoka2026linearllmscm,
+  title={Linear-LLM-SCM: Benchmarking LLMs for Coefficient Elicitation in Linear-Gaussian Causal Models},
+  author={Yamaoka, Kanta and Mukherjee, Sumantrak and G{\"a}rtner, Thomas and Selby, David A. and Konigorski, Stefan and H{\"u}llermeier, Eyke and Bengs, Viktor and Vollmer, Sebastian Josef},
+  year={2026},
+  abbr={Preprint},
+  themes={causal_learning},
+  note={Preprint},
+  pdf={https://arxiv.org/pdf/2602.10282},
+  abstract={Benchmarks large language models for coefficient elicitation in linear-Gaussian structural causal models.},
+  bibtex_show={true},
+  selected={true}
+}
+
+@inproceedings{grossmann2025clam,
   title={CLAM: Causal Spatial Disaggregation to Infer Local Effects From Coarse Data},
-  author={Mukherjee, Sumantrak and Grossmann, Gerrit and Vollmer, Sebastian},
-  booktitle={NeurIPS CausScien Workshop},
+  author={Gro{\ss}mann*, Gerrit and Mukherjee*, Sumantrak and Vollmer, Sebastian Josef},
+  booktitle={NeurIPS 2025 Workshop on CauScien: Uncovering Causality in Science},
   year={2025},
   abbr={CausScien},
+  themes={causal_learning},
   note={Workshop paper, 2025},
+  pdf={https://openreview.net/pdf?id=zREolCRRfK},
+  author_note={* joint first authors},
+  abstract={Learning spatially fine-grained patterns from coarse-resolution data is inherently difficult; doing so in a causal setting---estimating high-resolution effects from coarse interventional data---adds an extra layer of complexity.
+
+We introduce \textsc{Clam}, a method for estimating fine-grained causal effects when only coarse-resolution data on interventions and outcomes is available. We assume high-resolution contextual covariates exist that modulate these effects and can be exploited to infer localized causal effects, support counterfactual reasoning, and enable disaggregation of the outcome. Through simulation studies, we demonstrate that \textsc{Clam} can recover spatially varying causal impacts under diverse conditions.
+
+This has important implications for domains such as public health and environmental policy, where decisions are made at broad scales but causal pathways vary locally. Code is available \href{https://github.com/gerritgr/clam}{here}.},
   bibtex_show={true},
   selected={true}
 }
@@ -17,7 +38,9 @@
   author={Aalaila, Yahya and Mukherjee, Sumantrak and Grossmann, Gerrit and Vollmer, Sebastian},
   journal={ECML},
   year={2025},
+  themes={event_modeling},
   note={Under review},
+  abstract={Introduces a benchmark for studying spatio-temporal pattern complexity across multiple axes of variation.},
   bibtex_show={true},
   selected={false}
 }
@@ -28,7 +51,10 @@
   booktitle={EurIPS DiffSys Workshop},
   year={2025},
   abbr={DiffSys},
+  themes={event_modeling},
   note={Workshop paper, 2025},
+  pdf={https://openreview.net/pdf?id=iDS1iabzWP},
+  abstract={Presents a Bayesian approach to physics-informed event modeling, combining domain structure with uncertainty-aware inference.},
   bibtex_show={true},
   selected={true}
 }
@@ -38,7 +64,10 @@
   author={Mukherjee, Sumantrak and Lebedeva, Serafima and Margraf, Valentin and Hanselle, Jonas and Yamaoka, Kanta and Bengs, Viktor and Bhalwankar, Raj and Neigel, Peter and Hullermeier, Eyke and Vollmer, Sebastian Josef},
   year={2025},
   abbr={Preprint},
+  themes={bandits_uq},
   note={Preprint},
+  pdf={https://arxiv.org/pdf/2512.12693},
+  abstract={Studies how shared structure across related bandit tasks can support more efficient exploration and exploitation.},
   bibtex_show={true},
   selected={true}
 }
@@ -49,7 +78,10 @@
   journal={Transactions on Machine Learning Research},
   year={2025},
   abbr={TMLR},
+  themes={event_modeling},
   note={2025},
+  pdf={https://openreview.net/pdf?id=N69lSYWkMw},
+  abstract={Reviews recent developments in neural spatio-temporal point processes, with an emphasis on current trends and open challenges.},
   bibtex_show={true},
   selected={true}
 }
@@ -60,6 +92,10 @@
   booktitle={International Conference on Machine Learning},
   year={2025},
   abbr={ICML},
+  themes={adjacent_interests},
+  arxiv={2401.08513},
+  pdf={https://proceedings.mlr.press/v267/sharma25a},
+  abstract={Shows how automated model search can be used to optimize for desired explanation metrics while preserving strong predictive performance, and discusses the resulting risks for the credibility of XAI research.},
   bibtex_show={true},
   note={2025},
   selected={true}
@@ -70,6 +106,9 @@
   author={Aalaila, Yahya and Grossmann, Gerrit and Mukherjee, Sumantrak and Wahl, Jonas and Vollmer, Sebastian},
   journal={Scientific Reports},
   year={2025},
+  themes={event_modeling},
+  pdf={https://arxiv.org/pdf/2503.23820},
+  abstract={Examines how chaotic dynamics and real-world complexity can limit the reliability of counterfactual reasoning.},
   bibtex_show={true},
   note={Under review}
 }
@@ -80,17 +119,25 @@
   booktitle={STCausal Workshop at ACM SIGSPATIAL},
   year={2024},
   abbr={STCausal},
+  themes={event_modeling},
+  pdf={https://bdal.umbc.edu/wp-content/uploads/sites/684/2024/10/STCausal_2024_paper_1-1.pdf},
+  abstract={Discusses distinctive challenges that arise when generating counterfactual point processes.},
   bibtex_show={true},
   note={Workshop paper, 2024}
 }
 
 @inproceedings{mukherjee2024gacbo,
   title={Graph Agnostic Causal Bayesian Optimisation},
-  author={Mukherjee, Sumantrak and Zhang, Mengyan and Flaxman, Seth and Vollmer, Sebastian},
+  author={Mukherjee*, Sumantrak and Zhang*, Mengyan and Flaxman, Seth and Vollmer, Sebastian},
   booktitle={NeurIPS BDU Workshop},
   year={2024},
   abbr={BDU},
+  themes={causal_learning},
   note={Workshop paper, 2024},
+  arxiv={2411.03142},
+  pdf={https://openreview.net/pdf?id=2zOZx8eqEs},
+  author_note={* joint first authors},
+  abstract={Develops a causal Bayesian optimization approach that does not require committing to a known causal graph in advance.},
   bibtex_show={true},
   selected={true}
 }
@@ -101,6 +148,9 @@
   journal={STAT},
   year={2025},
   abbr={STAT},
+  themes={bandits_uq},
+  pdf={https://onlinelibrary.wiley.com/doi/epdf/10.1002/sta4.70054},
+  abstract={Studies how Bayesian priors elicited from large language models compare with more conventional sources of prior information.},
   bibtex_show={true},
   note={2025; earlier workshop version at NeurIPS BDU 2024}
 }
@@ -111,6 +161,9 @@
   booktitle={DSHealth},
   year={2022},
   abbr={DSHealth},
+  themes={adjacent_interests},
+  pdf={https://arxiv.org/pdf/2206.03256},
+  abstract={Introduces flexible group fairness metrics tailored to survival analysis settings.},
   bibtex_show={true},
   note={Workshop paper, 2022}
 }

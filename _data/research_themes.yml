@@ -1,0 +1,23 @@
+bandits_uq:
+  label: bandits + uq
+  url: /research/#bandits-uq
+  color: "#dbe7ff"
+  text_color: "#39508f"
+
+causal_learning:
+  label: causal learning
+  url: /research/#causal-learning
+  color: "#fde2e7"
+  text_color: "#8f405d"
+
+event_modeling:
+  label: event modeling
+  url: /research/#event-modeling
+  color: "#dff3ea"
+  text_color: "#2f6d58"
+
+adjacent_interests:
+  label: adjacent interests
+  url: /research/#adjacent-interests
+  color: "#efe4ff"
+  text_color: "#6a4a94"
