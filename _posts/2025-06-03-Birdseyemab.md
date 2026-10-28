@@ -1,5 +1,6 @@
 ---
-layout: distill
+layout: post
+published: false
 title: "A Bird’s-Eye View of Multi-Armed Bandits"
 permalink: /blog/2025/birds-eye-view-multi-armed-bandits/
 description: A structured exploration of bandit problem types, their assumptions, modeling frameworks, and real-world applicability.
@@ -30,20 +31,34 @@ bibliography: bandits.bib
 
 toc:
   - name: Introduction
+    anchor: -introduction
   - name: A Historical and Cross-Disciplinary Perspective
+    anchor: -a-historical-and-cross-disciplinary-perspective
   - name: Taxonomy of Bandit Problems
+    anchor: -taxonomy-of-bandit-problems
     subsections:
       - name: Feedback Variants
+        anchor: -feedback-variants
       - name: Structural Variants
+        anchor: -structural-variants
       - name: Contextual Variants
+        anchor: -contextual-variants
       - name: Temporal Variants
+        anchor: -temporal-variants
       - name: Strategic & Adversarial Variants
+        anchor: -strategic--adversarial-variants
       - name: Constraint-driven Bandits
+        anchor: -constraint-driven-bandits
   - name: Formalism, Intuition, and Examples
+    anchor: -formalism-intuition-and-examples
   - name: Generalizations and Beyond
+    anchor: -generalizations-and-beyond
   - name: When Algorithms Fail
+    anchor: -when-algorithms-fail
   - name: Interactive Simulations
+    anchor: -interactive-simulations
   - name: References
+    anchor: -references
 ---
 
 > A unified top-down overview of the Multi-Armed Bandit landscape — from motivation and intuition to formal structure and experimental interactivity.

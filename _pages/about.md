@@ -6,13 +6,12 @@ subtitle: Junior Researcher at <a href="https://www.dfki.de/web">DFKI</a>, Data 
 
 profile:
   align: right
-  image: sum-prof.jpeg
+  image: sumantrak_website.jpeg
   image_circular: false
-  more_info: >
-    <p>mukherjee [dot] sumantrak [at] gmail [dot] com</p>
 
 selected_papers: true
 social: false
+social_under_profile: true
 
 announcements:
   enabled: true
@@ -23,7 +22,6 @@ latest_posts:
   enabled: false
 ---
 <div class="home-hero">
-  <p class="home-kicker">Research</p>
   <p class="home-lead">
     I work on multi-armed bandits, uncertainty quantification, and sample-efficient decision-making under limited feedback.
   </p>
@@ -36,39 +34,23 @@ latest_posts:
     I also keep a quiet <a href="{{ '/acknowledgments/' | relative_url }}">acknowledgments page</a> for people who have been especially kind to me.
   </p>
   <p class="home-aside home-aside-link">
-    For a more detailed account of my research, see the <a href="{{ '/research/' | relative_url }}">research page</a>. I will add a longer research statement there over time.
+    For a more detailed account of my research, see the <a href="{{ '/research/' | relative_url }}">research page</a>.
   </p>
-  <div class="home-links home-links-social">
-    <a class="home-link" href="mailto:mukherjee.sumantrak@gmail.com">Email</a>
-    <a class="home-link" href="https://github.com/sumantrak" target="_blank" rel="noopener noreferrer">GitHub</a>
-    <a class="home-link" href="https://www.linkedin.com/in/sumantrak" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    <a class="home-link" href="https://scholar.google.com/citations?user=UV2fWZ0AAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a>
-    <a class="home-link" href="https://www.lesswrong.com/users/sumantrak" target="_blank" rel="noopener noreferrer">LessWrong</a>
-  </div>
 </div>
 
 <!--home-panel-end-->
 
 <div class="theme-grid">
-  <a class="theme-card theme-link-card" href="{{ '/research/#bandits-uq' | relative_url }}">
-    <div>
-      <p class="theme-label">Current focus</p>
-      <h2>Multi-Armed Bandits and Uncertainty Quantification</h2>
-      <p>Sequential decision-making with better priors, transfer, and calibrated uncertainty.</p>
-    </div>
+  <a class="theme-card theme-link-card theme-card--bandits" href="{{ '/research/#bandits-uq' | relative_url }}">
+    <h2>Multi-Armed Bandits and Uncertainty Quantification</h2>
+    <p>Sequential decision-making with better priors, transfer, and calibrated uncertainty.</p>
   </a>
-  <a class="theme-card theme-link-card" href="{{ '/research/#causal-learning' | relative_url }}">
-    <div>
-      <p class="theme-label">Interface</p>
-      <h2>Causal Structure for Efficient Learning</h2>
-      <p>Causal discovery and causal structure leveraged for sample efficiency and transfer.</p>
-    </div>
+  <a class="theme-card theme-link-card theme-card--causal" href="{{ '/research/#causal-learning' | relative_url }}">
+    <h2>Causal Structure for Efficient Learning</h2>
+    <p>Causal discovery and causal structure leveraged for sample efficiency and transfer.</p>
   </a>
-  <a class="theme-card theme-link-card" href="{{ '/research/#event-modeling' | relative_url }}">
-    <div>
-      <p class="theme-label">Earlier work</p>
-      <h2>Spatio-Temporal Event Modeling</h2>
-      <p>Earlier work on interpretable point processes, benchmarks, and counterfactual event data.</p>
-    </div>
+  <a class="theme-card theme-link-card theme-card--events" href="{{ '/research/#event-modeling' | relative_url }}">
+    <h2>Spatio-Temporal Event Modeling</h2>
+    <p>Interpretable point processes, benchmarks, and counterfactual event data.</p>
   </a>
 </div>

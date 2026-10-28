@@ -6,31 +6,31 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #fbf7f1;
+  --global-bg-color: #f5f1e9;
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #2f2a36;
-  --global-text-color-light: #746d7d;
-  --global-theme-color: #5f6fb2;
-  --global-hover-color: #4d5e9f;
+  --global-text-color: #22211f;
+  --global-text-color-light: #6d6a63;
+  --global-theme-color: #a94735;
+  --global-hover-color: #7f3327;
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #2e2b35;
-  --global-footer-text-color: #f8f3ed;
-  --global-footer-link-color: #fbf7f1;
-  --global-distill-app-color: #746d7d;
-  --global-divider-color: rgba(72, 63, 91, 0.11);
-  --global-card-bg-color: #fffdfa;
-  --global-highlight-color: #cc7c8d;
-  --surface-soft: rgba(255, 253, 250, 0.9);
-  --surface-hero-top: rgba(255, 255, 255, 0.52);
-  --surface-hero-bottom: rgba(243, 237, 247, 0.44);
-  --surface-signal: rgba(95, 111, 178, 0.08);
-  --belief-prior: #9fb0da;
-  --belief-prior-soft: rgba(159, 176, 218, 0.22);
-  --belief-posterior: #c47a96;
-  --belief-posterior-soft: rgba(196, 122, 150, 0.2);
-  --bg-orb-a: rgba(166, 192, 232, 0.18);
-  --bg-orb-b: rgba(241, 196, 210, 0.16);
-  --bg-orb-c: rgba(210, 202, 233, 0.16);
+  --global-footer-bg-color: #181818;
+  --global-footer-text-color: #f5f1e9;
+  --global-footer-link-color: #f5f1e9;
+  --global-distill-app-color: #6d6a63;
+  --global-divider-color: rgba(34, 33, 31, 0.14);
+  --global-card-bg-color: #fbf8f2;
+  --global-highlight-color: #a94735;
+  --surface-soft: rgba(251, 248, 242, 0.82);
+  --surface-hero-top: rgba(255, 255, 255, 0.42);
+  --surface-hero-bottom: rgba(236, 231, 215, 0.48);
+  --surface-signal: rgba(80, 101, 119, 0.08);
+  --belief-prior: #506577;
+  --belief-prior-soft: rgba(80, 101, 119, 0.18);
+  --belief-posterior: #a94735;
+  --belief-posterior-soft: rgba(169, 71, 53, 0.16);
+  --bg-orb-a: rgba(80, 101, 119, 0.09);
+  --bg-orb-b: rgba(169, 71, 53, 0.07);
+  --bg-orb-c: rgba(103, 114, 83, 0.08);
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -89,30 +89,30 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #1d1a24;
+  --global-bg-color: #1d1d1b;
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #f2ece7;
-  --global-text-color-light: #bbb2c3;
-  --global-theme-color: #b8c2f0;
-  --global-hover-color: #cad1f4;
+  --global-text-color: #f4efe6;
+  --global-text-color-light: #c6beb1;
+  --global-theme-color: #dc7b67;
+  --global-hover-color: #ef9e8d;
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #f2ece7;
-  --global-footer-text-color: #1d1a24;
-  --global-footer-link-color: #1d1a24;
-  --global-distill-app-color: #bbb2c3;
-  --global-divider-color: rgba(242, 236, 231, 0.12);
-  --global-card-bg-color: #27232f;
-  --surface-soft: rgba(39, 35, 47, 0.84);
-  --surface-hero-top: rgba(88, 98, 152, 0.22);
-  --surface-hero-bottom: rgba(39, 35, 47, 0.78);
-  --surface-signal: rgba(184, 194, 240, 0.12);
-  --belief-prior: #9fb4eb;
-  --belief-prior-soft: rgba(159, 180, 235, 0.22);
-  --belief-posterior: #d898af;
-  --belief-posterior-soft: rgba(216, 152, 175, 0.22);
-  --bg-orb-a: rgba(151, 180, 225, 0.18);
-  --bg-orb-b: rgba(199, 145, 173, 0.14);
-  --bg-orb-c: rgba(170, 162, 214, 0.14);
+  --global-footer-bg-color: #f4efe6;
+  --global-footer-text-color: #1d1d1b;
+  --global-footer-link-color: #1d1d1b;
+  --global-distill-app-color: #c6beb1;
+  --global-divider-color: rgba(244, 239, 230, 0.13);
+  --global-card-bg-color: #292825;
+  --surface-soft: rgba(41, 40, 37, 0.86);
+  --surface-hero-top: rgba(88, 62, 52, 0.3);
+  --surface-hero-bottom: rgba(25, 25, 24, 0.78);
+  --surface-signal: rgba(132, 163, 184, 0.12);
+  --belief-prior: #9eb8c9;
+  --belief-prior-soft: rgba(158, 184, 201, 0.18);
+  --belief-posterior: #dc7b67;
+  --belief-posterior-soft: rgba(220, 123, 103, 0.18);
+  --bg-orb-a: rgba(100, 135, 158, 0.12);
+  --bg-orb-b: rgba(220, 123, 103, 0.08);
+  --bg-orb-c: rgba(129, 145, 102, 0.09);
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},

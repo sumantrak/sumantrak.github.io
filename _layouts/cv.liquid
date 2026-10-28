@@ -1,27 +1,28 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {{ page.title }}
-      {% if page.cv_pdf %}
-        <a
-          {% if page.cv_pdf contains '://' %}
-            href="{{ page.cv_pdf }}"
-          {% else %}
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-          {% endif %}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="float-right"
-        >
-          <i class="fa-solid fa-file-pdf"></i>
-        </a>
+<div class="post cv-page">
+  <header class="post-header cv-page__header">
+    <div>
+      <p class="cv-page__eyebrow">Curriculum vitae</p>
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
       {% endif %}
-    </h1>
-    {% if page.description %}
-      <p class="post-description">{{ page.description }}</p>
+    </div>
+    {% if page.cv_pdf %}
+      <a
+        {% if page.cv_pdf contains '://' %}
+          href="{{ page.cv_pdf }}"
+        {% else %}
+          href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+        {% endif %}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="cv-page__download"
+      >
+        <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> PDF
+      </a>
     {% endif %}
   </header>
 
@@ -29,9 +30,12 @@ layout: default
     <div class="cv">
       {% for entry in site.data.cv %}
         <a class="anchor" id="{{ entry.title }}"></a>
-        <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-          <div>
+        <section class="cv-section">
+          <div class="cv-section__heading">
+            <span aria-hidden="true">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+            <h2>{{ entry.title }}</h2>
+          </div>
+          <div class="cv-section__content">
             {% if entry.type == 'list' %}
               {% include cv/list.liquid %}
             {% elsif entry.type == 'map' %}
@@ -46,7 +50,7 @@ layout: default
               {{ entry.contents }}
             {% endif %}
           </div>
-        </div>
+        </section>
       {% endfor %}
     </div>
   </article>

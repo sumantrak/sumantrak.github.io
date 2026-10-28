@@ -2,7 +2,7 @@
 ---
 <div class="row">
   {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
+    <div class="col col-sm-2 abbr publication-thumbnail">
       {% assign theme_tokens = '' | split: ',' %}
       {% if entry.themes %}
         {% assign theme_tokens = entry.themes | split: '|' %}
@@ -11,24 +11,30 @@
       {% endif %}
 
       {% if theme_tokens.size > 0 and theme_tokens.first != '' %}
-        <div class="theme-badge-list">
+        <div class="publication-theme-card publication-theme-card--themes-{{ theme_tokens.size }}">
+          <div class="publication-theme-card__field" aria-hidden="true">
+            <canvas
+              class="publication-theme-card__canvas"
+              width="180"
+              height="132"
+              data-themes="{{ theme_tokens | join: '|' }}"
+            ></canvas>
+          </div>
+          <div class="publication-theme-card__label">
           {% for theme_token in theme_tokens %}
             {% assign theme_key = theme_token | strip %}
             {% assign theme_data = site.data.research_themes[theme_key] %}
             {% if theme_data %}
-              <abbr class="badge rounded w-100 theme-badge theme-badge--{{ theme_key }}">
-                {% if theme_data.url %}
-                  <a href="{{ theme_data.url | relative_url }}" class="theme-badge-link">{{ theme_data.label }}</a>
-                {% else %}
-                  <div>{{ theme_data.label }}</div>
-                {% endif %}
-              </abbr>
+              {% if theme_data.url %}
+                <a href="{{ theme_data.url | relative_url }}">{{ theme_data.label }}</a>
+              {% else %}
+                <span>{{ theme_data.label }}</span>
+              {% endif %}
             {% else %}
-              <abbr class="badge rounded w-100 theme-badge">
-                <div>{{ theme_key }}</div>
-              </abbr>
+              <span>{{ theme_key }}</span>
             {% endif %}
           {% endfor %}
+          </div>
         </div>
       {%- elsif entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
@@ -54,28 +60,11 @@
           </abbr>
         {% endif %}
       {% endif %}
-      {% if entry.preview %}
-        {% if entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
-        {% else %}
-          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
-          {%
-            include figure.liquid
-            loading="eager"
-            path=entry_path
-            sizes = "200px"
-            class="preview z-depth-1 rounded"
-            zoomable=true
-            avoid_scaling=true
-            alt=entry.preview
-          %}
-        {% endif %}
-      {% endif %}
     </div>
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{ entry.key }}" class="publication-entry {% if site.enable_publication_thumbnails %}col-sm-10{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->

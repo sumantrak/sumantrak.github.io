@@ -17,7 +17,7 @@ horizontal: true
 
 <div class="projects">
 {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
+  <a id="{{ category }}" href="#{{ category }}">
     <h2 class="category">{{ category | replace: '-', ' ' }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category | sort: "importance" %}

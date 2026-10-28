@@ -34,3 +34,4 @@ experimentation?
 ## Outputs
 
 - Publication: {% cite selby2025llmpriors %}
+- Publication: {% cite yamaoka2026linearllmscm %}

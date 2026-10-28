@@ -1,15 +1,30 @@
 ---
 ---
 
-@misc{yamaoka2026linearllmscm,
+@inproceedings{yamaoka2026linearllmscm,
   title={Linear-LLM-SCM: Benchmarking LLMs for Coefficient Elicitation in Linear-Gaussian Causal Models},
   author={Yamaoka, Kanta and Mukherjee, Sumantrak and G{\"a}rtner, Thomas and Selby, David A. and Konigorski, Stefan and H{\"u}llermeier, Eyke and Bengs, Viktor and Vollmer, Sebastian Josef},
   year={2026},
-  abbr={Preprint},
-  themes={causal_learning},
-  note={Preprint},
-  pdf={https://arxiv.org/pdf/2602.10282},
+  abbr={SDS4H},
+  booktitle={Structured Data 4 Health Workshop at ICML},
+  themes={causal_learning|bandits_uq},
+  note={Accepted},
+  pdf={https://openreview.net/forum?id=IvUFTCiHxS},
   abstract={Benchmarks large language models for coefficient elicitation in linear-Gaussian structural causal models.},
+  bibtex_show={true},
+  selected={false}
+}
+
+@inproceedings{mukherjee2026robustwarmstart,
+  title={Distributionally Robust Warm Start for a Population of Bandits},
+  author={Mukherjee, Sumantrak and Basu, Debabrota and Brandt, Jasmin and Bengs, Viktor and H{\"u}llermeier, Eyke and Vollmer, Sebastian Josef},
+  booktitle={European Workshop on Reinforcement Learning},
+  year={2026},
+  abbr={EWRL},
+  themes={bandits_uq},
+  note={Workshop paper, 2026},
+  pdf={https://openreview.net/forum?id=HhpXpRjOFJ},
+  abstract={Develops a distributionally robust warm-start strategy for a population of related bandit problems.},
   bibtex_show={true},
   selected={true}
 }
@@ -17,7 +32,7 @@
 @inproceedings{grossmann2025clam,
   title={CLAM: Causal Spatial Disaggregation to Infer Local Effects From Coarse Data},
   author={Gro{\ss}mann*, Gerrit and Mukherjee*, Sumantrak and Vollmer, Sebastian Josef},
-  booktitle={NeurIPS 2025 Workshop on CauScien: Uncovering Causality in Science},
+  booktitle={NeurIPS 2025 Workshop on CausScien: Uncovering Causality in Science},
   year={2025},
   abbr={CausScien},
   themes={causal_learning},
@@ -30,16 +45,17 @@ We introduce \textsc{Clam}, a method for estimating fine-grained causal effects 
 
 This has important implications for domains such as public health and environmental policy, where decisions are made at broad scales but causal pathways vary locally. Code is available \href{https://github.com/gerritgr/clam}{here}.},
   bibtex_show={true},
-  selected={true}
+  selected={false}
 }
 
 @article{aalaila2025hawkesnest,
   title={HawkesNest: A Multi-Axis Benchmark for Spatio-Temporal Pattern Complexity},
-  author={Aalaila, Yahya and Mukherjee, Sumantrak and Grossmann, Gerrit and Vollmer, Sebastian},
-  journal={ECML},
+  author={Aalaila, Yahya and Mukherjee, Sumantrak and Gro{\ss}mann, Gerrit and Vollmer, Sebastian},
+  journal={Preprint},
   year={2025},
   themes={event_modeling},
-  note={Under review},
+  note={Preprint},
+  pdf={https://arxiv.org/pdf/2606.16863},
   abstract={Introduces a benchmark for studying spatio-temporal pattern complexity across multiple axes of variation.},
   bibtex_show={true},
   selected={false}
@@ -47,34 +63,36 @@ This has important implications for domains such as public health and environmen
 
 @inproceedings{mukherjee2025squid,
   title={SQUID: A Bayesian Approach for Physics-Informed Event Modeling},
-  author={Mukherjee, Sumantrak and Vollmer, Sebastian and Grossmann, Gerrit},
-  booktitle={EurIPS DiffSys Workshop},
+  author={Mukherjee, Sumantrak and Vollmer, Sebastian and Gro{\ss}mann, Gerrit},
+  booktitle={1st Workshop on Differentiable Systems and Scientific Machine Learning @ NeurIPS 2025},
   year={2025},
   abbr={DiffSys},
   themes={event_modeling},
   note={Workshop paper, 2025},
   pdf={https://openreview.net/pdf?id=iDS1iabzWP},
+  preview={squid-model-overview.png},
   abstract={Presents a Bayesian approach to physics-informed event modeling, combining domain structure with uncertainty-aware inference.},
   bibtex_show={true},
-  selected={true}
+  selected={false}
 }
 
-@misc{mukherjee2025multitaskbandits,
+@inproceedings{mukherjee2026multitaskbandits,
   title={Co-Exploration and Co-Exploitation via Shared Structure in Multi-Task Bandits},
-  author={Mukherjee, Sumantrak and Lebedeva, Serafima and Margraf, Valentin and Hanselle, Jonas and Yamaoka, Kanta and Bengs, Viktor and Bhalwankar, Raj and Neigel, Peter and Hullermeier, Eyke and Vollmer, Sebastian Josef},
-  year={2025},
-  abbr={Preprint},
+  author={Mukherjee, Sumantrak and Lebedeva, Serafima and Brandt, Jasmin and Margraf, Valentin and Hanselle, Jonas and Yamaoka, Kanta and Bengs, Viktor and Konigorski, Stefan and H{\"u}llermeier, Eyke and Vollmer, Sebastian Josef},
+  booktitle={European Workshop on Reinforcement Learning},
+  year={2026},
+  abbr={EWRL},
   themes={bandits_uq},
-  note={Preprint},
-  pdf={https://arxiv.org/pdf/2512.12693},
+  note={Workshop paper, 2026},
+  pdf={https://openreview.net/forum?id=pr05rpNNNh},
   abstract={Studies how shared structure across related bandit tasks can support more efficient exploration and exploitation.},
   bibtex_show={true},
   selected={true}
 }
 
 @article{mukherjee2025nstpp,
-  title={Neural Spatio Temporal Point Processes: Trends and Challenges},
-  author={Mukherjee, Sumantrak and Elhamdi, Mouad and Mohler, George and Selby, David A. and Xie, Yao and Vollmer, Sebastian and Grossmann, Gerrit},
+  title={Neural Spatiotemporal Point Processes: Trends and Challenges},
+  author={Mukherjee, Sumantrak and Elhamdi, Mouad and Mohler, George and Selby, David A. and Xie, Yao and Vollmer, Sebastian and Gro{\ss}mann, Gerrit},
   journal={Transactions on Machine Learning Research},
   year={2025},
   abbr={TMLR},
@@ -87,8 +105,8 @@ This has important implications for domains such as public health and environmen
 }
 
 @inproceedings{sharma2025xhacking,
-  title={X Hacking: The Threat of Misguided AutoML},
-  author={Sharma, Rahul and Mukherjee, Sumantrak and Redyuk, Sergey and Sipka, Andrea and Vollmer, Sebastian and Selby, David A.},
+  title={X-Hacking: The Threat of Misguided AutoML},
+  author={Sharma, Rahul and Mukherjee, Sumantrak and Sipka, Andrea and H{\"u}llermeier, Eyke and Vollmer, Sebastian Josef and Redyuk, Sergey and Selby, David A.},
   booktitle={International Conference on Machine Learning},
   year={2025},
   abbr={ICML},
@@ -102,24 +120,41 @@ This has important implications for domains such as public health and environmen
 }
 
 @article{aalaila2025counterfactualfails,
-  title={When Counterfactual Reasoning Fails: Chaos and Real-World Complexity},
-  author={Aalaila, Yahya and Grossmann, Gerrit and Mukherjee, Sumantrak and Wahl, Jonas and Vollmer, Sebastian},
+  title={Chaotic and complex dynamics expose the limits of counterfactual reasoning},
+  author={Aalaila, Yahya and Gro{\ss}mann, Gerrit and Mukherjee, Sumantrak and Wahl, Jonas and Vollmer, Sebastian},
   journal={Scientific Reports},
-  year={2025},
-  themes={event_modeling},
-  pdf={https://arxiv.org/pdf/2503.23820},
+  volume={16},
+  pages={16978},
+  year={2026},
+  themes={causal_learning|event_modeling},
+  doi={10.1038/s41598-026-52349-2},
+  pdf={https://www.nature.com/articles/s41598-026-52349-2},
   abstract={Examines how chaotic dynamics and real-world complexity can limit the reliability of counterfactual reasoning.},
   bibtex_show={true},
-  note={Under review}
+  note={Scientific Reports 16, Article 16978 (2026)}
+}
+
+@article{lebedeva2026warmstartedmixturebandits,
+  title={Challenges and Solutions for Bandits in the Wild: Warm-Started Mixture Bandits for Cross-Cohort Slate Recommendation},
+  author={Lebedeva, Serafima and Mukherjee, Sumantrak and Sadal, A. A. and Ek\c{s}i, I. and Sharma, R. and Mueller, J. and Dombrowski, T. and Karolus, J. and Bengs, Viktor and H{\"u}llermeier, Eyke and Vollmer, Sebastian Josef},
+  journal={Preprint},
+  year={2026},
+  themes={bandits_uq},
+  note={Preprint},
+  pdf={https://arxiv.org/pdf/2609.37800},
+  author_note={* joint first authors},
+  abstract={Studies warm-started mixture bandits for cross-cohort slate recommendation in real-world settings.},
+  bibtex_show={true},
+  selected={false}
 }
 
 @inproceedings{grossmann2024peculiarities,
   title={Peculiarities of Counterfactual Point Process Generation},
-  author={Grossmann, Gerrit and Mukherjee, Sumantrak and Vollmer, Sebastian},
+  author={Gro{\ss}mann, Gerrit and Mukherjee, Sumantrak and Vollmer, Sebastian},
   booktitle={STCausal Workshop at ACM SIGSPATIAL},
   year={2024},
   abbr={STCausal},
-  themes={event_modeling},
+  themes={causal_learning|event_modeling},
   pdf={https://bdal.umbc.edu/wp-content/uploads/sites/684/2024/10/STCausal_2024_paper_1-1.pdf},
   abstract={Discusses distinctive challenges that arise when generating counterfactual point processes.},
   bibtex_show={true},
@@ -132,18 +167,31 @@ This has important implications for domains such as public health and environmen
   booktitle={NeurIPS BDU Workshop},
   year={2024},
   abbr={BDU},
-  themes={causal_learning},
+  themes={causal_learning|bandits_uq},
   note={Workshop paper, 2024},
   arxiv={2411.03142},
   pdf={https://openreview.net/pdf?id=2zOZx8eqEs},
+  preview={gacbo-workflow.png},
   author_note={* joint first authors},
   abstract={Develops a causal Bayesian optimization approach that does not require committing to a known causal graph in advance.},
   bibtex_show={true},
   selected={true}
 }
 
+@misc{grossmann2026rethinkingcounterfactuals,
+  title={Rethinking Counterfactuals: Hidden Assumptions and Practical Pitfalls},
+  author={Gro{\ss}mann, Gerrit and Aalaila, Yahya and Selby, David A. and Mukherjee, Sumantrak and Vollmer, Sebastian and Wahl, Jonas},
+  year={2026},
+  abbr={CREST},
+  themes={causal_learning|event_modeling},
+  note={CREST 2026},
+  pdf={https://crest26.cse.msu.edu},
+  abstract={Revisits common counterfactual assumptions and highlights where practical use can break down in real systems.},
+  bibtex_show={true}
+}
+
 @article{selby2025llmpriors,
-  title={Had enough of experts? Elicitation and evaluation of Bayesian priors from large language models},
+  title={Had Enough of Experts? Elicitation and Evaluation of Bayesian Priors from Large Language Models},
   author={Selby, David and Spriestersbach, Kai and Iwashita, Yuichiro and Bappert, Dennis and Warrier, Archana and Mukherjee, Sumantrak and Asim, Muhammad Nabeel and Kise, Koichi and Vollmer, Sebastian},
   journal={STAT},
   year={2025},

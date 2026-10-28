@@ -33,4 +33,4 @@ resolution does not matter?
 
 ## Outputs
 
-- Publication: {% cite mukherjee2025clam %}
+- Publication: {% cite grossmann2025clam %}

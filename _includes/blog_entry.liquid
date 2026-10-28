@@ -1,0 +1,46 @@
+{% assign post = include.post %}
+{% if post.external_source == blank %}
+  {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+{% else %}
+  {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+{% endif %}
+{% assign post_url = post.url %}
+{% assign is_external = false %}
+{% if post.redirect %}
+  {% assign post_url = post.redirect %}
+  {% if post.redirect contains '://' %}
+    {% assign is_external = true %}
+  {% endif %}
+{% endif %}
+
+<article class="blog-entry">
+  {% if is_external %}
+    <a class="blog-entry__link" href="{{ post_url }}" target="_blank" rel="noopener noreferrer">
+  {% else %}
+    <a class="blog-entry__link" href="{{ post_url | relative_url }}">
+  {% endif %}
+      <time class="blog-entry__date" datetime="{{ post.date | date_to_xmlschema }}">
+        <span>{{ post.date | date: '%d' }}</span>
+        <small>{{ post.date | date: '%b' }}</small>
+        <small>{{ post.date | date: '%Y' }}</small>
+      </time>
+      <div class="blog-entry__body">
+        <p class="blog-entry__type">{% if post.post_type == 'learning-log' %}Learning log{% elsif post.post_type == 'lecture-notes' %}Lecture notes{% else %}Finished note{% endif %}</p>
+        <h2>{{ post.title }}</h2>
+        {% if post.description %}
+          <p class="blog-entry__description">{{ post.description }}</p>
+        {% endif %}
+        <p class="blog-entry__meta">
+          {{ read_time }} min read
+          {% if post.tags and post.tags.size > 0 %}
+            <span aria-hidden="true">/</span>
+            {{ post.tags | join: ' · ' }}
+          {% endif %}
+          {% if post.external_source %}
+            <span aria-hidden="true">/</span>
+            {{ post.external_source }}
+          {% endif %}
+        </p>
+      </div>
+    </a>
+</article>

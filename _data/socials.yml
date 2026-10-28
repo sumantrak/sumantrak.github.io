@@ -1,11 +1,7 @@
 # this file contains the social media links and usernames of the author
 # only the links below will be shown on the site
 
+email: mukherjeesumantrak@gmail.com
 github_username: sumantrak
 linkedin_username: sumantrak
 scholar_userid: UV2fWZ0AAAAJ
-
-lesswrong:
-  logo: /assets/img/lesswrong-mark.svg
-  title: LessWrong
-  url: https://www.lesswrong.com/users/sumantrak

@@ -58,13 +58,21 @@ similarity between users can be discovered online, and how to ensure that no use
   The statistical question is when information should be pooled, and the algorithmic question is how to do this without
   sacrificing the interests of particular users.
 
-**Related projects**
-- [Multi-Task Bandits and Shared Priors]({{ '/projects/multi-task-bandits/' | relative_url }})
-- [Priors from Language Models]({{ '/projects/llm-priors/' | relative_url }})
-
-**Related publications**
-- Co-Exploration and Co-Exploitation via Shared Structure in Multi-Task Bandits
-- Had enough of experts? Elicitation and evaluation of Bayesian priors from large language models
+<div class="research-related">
+  <div class="research-related__group">
+    <p class="research-related__label">Projects</p>
+    <div class="research-related__links">
+      <a href="{{ '/projects/multi-task-bandits/' | relative_url }}">Multi-Task Bandits and Shared Priors</a>
+      <a href="{{ '/projects/llm-priors/' | relative_url }}">Priors from Language Models</a>
+    </div>
+  </div>
+  <div class="research-related__group">
+    <p class="research-related__label">Related papers</p>
+    <div class="research-related__links">
+      <a href="{{ '/publications/#bandits%20%2B%20uq' | relative_url }}">View all bandits + UQ papers</a>
+    </div>
+  </div>
+</div>
 
 <a class="anchor" id="causal-learning"></a>
 ## Causal Inference for Efficient Learning
@@ -99,13 +107,21 @@ the graph is fixed and fully available from the outset.
 - In causal Bayesian optimization, uncertainty about the graph structure changes what can reasonably be optimized and
   how much confidence one should place in a proposed intervention.
 
-**Related projects**
-- [Causal Decision-Making and Bayesian Optimization]({{ '/projects/causal-decision-making/' | relative_url }})
-- [CLAM and Local Effect Estimation]({{ '/projects/clam/' | relative_url }})
-
-**Related publications**
-- Graph Agnostic Causal Bayesian Optimisation
-- CLAM: Causal Spatial Disaggregation to Infer Local Effects From Coarse Data
+<div class="research-related">
+  <div class="research-related__group">
+    <p class="research-related__label">Projects</p>
+    <div class="research-related__links">
+      <a href="{{ '/projects/causal-decision-making/' | relative_url }}">Causal Decision-Making and Bayesian Optimization</a>
+      <a href="{{ '/projects/clam/' | relative_url }}">CLAM and Local Effect Estimation</a>
+    </div>
+  </div>
+  <div class="research-related__group">
+    <p class="research-related__label">Related papers</p>
+    <div class="research-related__links">
+      <a href="{{ '/publications/#causal%20learning' | relative_url }}">View all causal learning papers</a>
+    </div>
+  </div>
+</div>
 
 <a class="anchor" id="event-modeling"></a>
 ## Spatio-Temporal Event Modeling
@@ -130,18 +146,33 @@ way, and how to understand the limits of counterfactual reasoning in spatio-temp
 - Counterfactual event generation is not only a modeling problem. It also raises questions about what should count as a
   meaningful intervention and when a generated counterfactual remains consistent with the real system.
 
-**Related projects**
-- [Interpretable Spatio-Temporal Point Processes]({{ '/projects/point-processes/' | relative_url }})
+<div class="research-related">
+  <div class="research-related__group">
+    <p class="research-related__label">Project</p>
+    <div class="research-related__links">
+      <a href="{{ '/projects/point-processes/' | relative_url }}">Interpretable Spatio-Temporal Point Processes</a>
+    </div>
+  </div>
+  <div class="research-related__group">
+    <p class="research-related__label">Related papers</p>
+    <div class="research-related__links">
+      <a href="{{ '/publications/#event%20modeling' | relative_url }}">View all event modeling papers</a>
+    </div>
+  </div>
+</div>
 
-**Related publications**
-- Neural Spatio Temporal Point Processes: Trends and Challenges
-- HawkesNest: A Multi-Axis Benchmark for Spatio-Temporal Pattern Complexity
-- SQUID: A Bayesian Approach for Physics-Informed Event Modeling
-- Peculiarities of Counterfactual Point Process Generation
-
+<a class="anchor" id="adjacent-interests"></a>
 ## Adjacent Interests
 
 I also have an ongoing interest in fairness-aware learning and human-in-the-loop machine learning, especially where these
-questions interact with uncertainty quantification or decision support. Earlier work in this direction includes
-**Flexible Group Fairness Metrics for Survival Analysis** and engineering work during **Julia Summer of Code** on
-fairness algorithms for the MLJ ecosystem.
+questions interact with uncertainty quantification or decision support. This includes earlier work on fairness metrics,
+the reliability of AutoML, and engineering during **Julia Summer of Code** on fairness algorithms for the MLJ ecosystem.
+
+<div class="research-related research-related--single">
+  <div class="research-related__group">
+    <p class="research-related__label">Related papers</p>
+    <div class="research-related__links">
+      <a href="{{ '/publications/#adjacent%20interests' | relative_url }}">View all adjacent-interest papers</a>
+    </div>
+  </div>
+</div>

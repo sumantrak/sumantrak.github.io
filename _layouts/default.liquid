@@ -10,13 +10,17 @@
       {% else %}
         {% assign redirect = page.redirect | relative_url %}
       {% endif %}
-      <meta http-equiv="refresh" content="3; url={{ redirect }}">
+      {% assign redirect_delay = 3 %}
+      {% if page.redirect_delay != nil %}
+        {% assign redirect_delay = page.redirect_delay %}
+      {% endif %}
+      <meta http-equiv="refresh" content="{{ redirect_delay }}; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}{% if page.layout == 'about' %} about-page{% endif %}">
     <div class="site-bg" aria-hidden="true">
       <div class="site-bg-gradient site-bg-gradient-a"></div>
       <div class="site-bg-gradient site-bg-gradient-b"></div>

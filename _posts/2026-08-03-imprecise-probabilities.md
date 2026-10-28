@@ -1,0 +1,64 @@
+---
+layout: post
+published: false
+title: "Learning log: [topic]"
+permalink: /blog/2026/imprecise-probabilities/
+date: 2026-08-03
+description: A provisional note on [topic], shared early to invite corrections, references, and alternative ways of thinking.
+tags: [learning-log, topic]
+categories: [learning-log]
+post_type: learning-log
+meta: Learning log · open to feedback
+toc:
+  - name: What I am trying to understand
+    anchor: what-i-am-trying-to-understand
+  - name: Working model
+    anchor: working-model
+  - name: Open questions
+    anchor: open-questions
+  - name: References and next steps
+    anchor: references-and-next-steps
+# Set this to true once Giscus is configured in _config.yml.
+giscus_comments: false
+---
+
+> **A note in progress.** This is a learning log, not a finished explanation. I am sharing it to make my current model
+> inspectable and to invite corrections, missing references, counterexamples, and better framings. You can reach me at
+> `mukherjee.sumantrak@gmail.com`.
+
+## What I am trying to understand
+
+State the question in one or two sentences. Why is it worth understanding now, and what would count as a useful answer?
+
+## Working model
+
+Write the simplest account that currently makes sense to you.
+
+- **Core claim:**
+- **Why I currently believe it:**
+- **Example or toy setting:**
+- **Where this model may fail:**
+
+Use equations, diagrams, links, or small experiments when they clarify the idea. Leave uncertainty visible rather than
+papering it over.
+
+## Open questions
+
+- What am I missing or conflating?
+- Which assumptions deserve to be checked?
+- Is there a standard result, term, or reference I should know?
+- What is a good next experiment, derivation, or example?
+
+## References and next steps
+
+- [Reference or resource](https://example.com) — why it seems useful.
+- Next step:
+- Revision note:
+
+---
+
+### Feedback welcome
+
+If you spot an error, know a useful reference, or have a competing intuition, I would be glad to hear from you. Email is
+best for now; enable `giscus_comments: true` above after configuring Giscus if you would like discussion directly on the
+post.

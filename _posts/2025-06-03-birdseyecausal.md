@@ -1,5 +1,6 @@
 ---
-layout: distill
+layout: post
+published: false
 title: "A Bird’s-Eye View of Causal Inference Frameworks"
 permalink: /blog/2025/birds-eye-view-causal-inference-frameworks/
 description: A structured overview of major causal inference paradigms, their assumptions, techniques, and practical applicability.
@@ -30,16 +31,26 @@ bibliography: causal-inference.bib
 
 toc:
   - name: Overview
+    anchor: -overview
   - name: Major Frameworks
+    anchor: -major-frameworks
   - name: Key Differences
+    anchor: -key-differences
     subsections:
       - name: Assumptions
+        anchor: -assumptions
       - name: Interventions & Counterfactuals
+        anchor: -interventions--counterfactuals
       - name: Modeling Techniques
+        anchor: "️-modeling-techniques"
   - name: Use Case Guide
-  - name: Modern Approaches
+    anchor: -use-case-guide
+  - name: Modern & Hybrid Approaches
+    anchor: -modern--hybrid-approaches
   - name: Limitations
+    anchor: "️-limitations"
   - name: References
+    anchor: -references
 ---
 
 > A unified map of the leading frameworks in causal inference: their philosophical roots, assumptions, tools, and the practical problems they best address.

@@ -32,4 +32,5 @@ collapsing meaningful task-specific differences?
 
 ## Outputs
 
-- Publication: {% cite mukherjee2025multitaskbandits %}
+- Publication: {% cite mukherjee2026multitaskbandits %}
+- Publication: {% cite mukherjee2026robustwarmstart %}

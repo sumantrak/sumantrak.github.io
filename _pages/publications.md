@@ -13,12 +13,6 @@ nav_order: 4
   <em>Under review</em> are works in progress.
 </p>
 
-<h2 class="section-heading">Selected</h2>
-<div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
-</div>
-
-<h2 class="section-heading">Full List</h2>
 <div class="publications">
   {% bibliography %}
 </div>

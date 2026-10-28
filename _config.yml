@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Sumantrak
 last_name: Mukherjee
 contact_note: >
-  Email is the easiest way to reach me.
+  <span class="contact-email">mukherjeesumantrak@gmail.com</span>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Sumantrak Mukherjee, focusing on causal inference, sequential decision-making, and spatio-temporal event modeling.
 footer_text: >
@@ -187,7 +187,6 @@ exclude:
   - package.json
   - package-lock.json
   - _books/
-  - _posts/
   - assets/jupyter/blog.ipynb
   - _pages/about_einstein.md
   - _pages/books.md
@@ -258,8 +257,9 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+# Leave these empty until the site publishes posts with generated archives.
+display_tags: []
+display_categories: []
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -316,9 +316,11 @@ filtered_bibtex_keywords:
     html,
     inspirehep_id,
     pdf,
+    note,
     poster,
     preview,
     selected,
+    themes,
     slides,
     supp,
     video,
@@ -443,7 +445,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=Fraunces:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
   highlightjs:
     integrity:
       css:

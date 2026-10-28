@@ -8,16 +8,17 @@
     - name: Location
       value: Kaiserslautern, Germany
     - name: Research Areas
-      value: Sequential decision-making, causal inference, spatio-temporal event modeling
+      value: Sequential decision-making under uncertainty, with a focus on multi-task bandits, robust information transfer, coordinated exploration, and the statistical and computational limits of learning algorithms.
 
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor of Engineering (Hons), Electronics and Instrumentation
-      institution: Birla Institute of Technology and Science, Pilani, India
-      year: 2019 - 2023
+    - title: B.E. in Electronics and Instrumentation
+      institution: BITS Pilani, India
+      year: Jun 2019 - May 2023
       description:
-        - Courses included deep learning, neural networks and fuzzy logic, probability and statistics, linear algebra, operating systems, and control systems.
+        - "Bachelor's thesis: Scalable Causal Bandits with Adequate Causal Discovery."
+        - "Selected coursework: Probability and Statistics, Linear Algebra, Calculus, Deep Learning, and Control Systems."
 
 - title: Research Experience
   type: time_table
@@ -26,65 +27,126 @@
       institution: DFKI, Data Science and its Applications, Kaiserslautern, Germany
       year: Oct 2023 - Present
       description:
-        - Advised by Prof. Dr. Sebastian Vollmer.
-        - Researching causal inference in sequential decision-making.
-        - Working on event modeling with point processes.
-        - Assisting with thesis supervision, teaching, hiring, and proposal writing.
-    - title: Bachelor's Thesis
-      institution: DFKI, Data Science and its Applications, Kaiserslautern, Germany
-      year: Jan 2023 - Apr 2023
+        - Advised by Prof. Sebastian Vollmer.
+        - Led the AI4Nof1 research consortium, studying multi-armed bandits with information sharing, coordinated exploration, and warm-starting.
+        - Coordinated research assistants and software developers to translate personalization methods into deployed systems, including a real-world study with university students and an IBS intervention app.
+        - Previously researched neural and spatiotemporal point processes in the Eventful project, investigating flexible neural modeling and causal inference.
+    - title: Guest Researcher
+      institution: RPTU, Kaiserslautern, Germany
+      year: Apr 2023 - Sep 2023
       description:
-        - Worked on scalable causal bandits with adequate causal discovery.
-        - Integrated differential Bayesian structure learning with reward maximization.
-        - Designed and evaluated a scalable algorithm for linear causal bandits.
-    - title: Research Collaboration
+        - Supervised by Prof. Sebastian Vollmer.
+        - Researched active learning for relabeling, data correction, and noisy annotators.
+    - title: Bachelor's Thesis Researcher
+      institution: DFKI, Data Science and its Applications, Kaiserslautern, Germany
+      year: Jan 2023 - May 2023
+      description:
+        - Supervised by Prof. Sebastian Vollmer and Dr. Mengyan Zhang.
+        - Integrated differentiable Bayesian structure learning with reward maximization and evaluated scalable causal-bandit methods.
+    - title: Research Collaborator
       institution: Columbia University, Remote
       year: Jan 2022 - Aug 2022
       description:
         - Supervised by Dr. Zenna Tavares.
-        - Implemented models of rational agents for (PO)MDPs with human biases and bounded rationality.
-        - Built JuliaProgrammingPuzzles.jl to benchmark ParametricInversion.jl.
+        - Implemented rational-agent models for (PO)MDPs with human biases and bounded rationality, and developed JuliaProgrammingPuzzles.jl benchmarks.
+    - title: Julia Summer of Code
+      institution: Remote
+      year: May 2021 - Jul 2021
+      description:
+        - Mentored by Dr. Sebastian Vollmer, Dr. Jiahao Chen, and Dr. Moritz Schauer.
+        - Implemented fairness in-processing algorithms in the MLJ ecosystem and studied adversarial-training stability and pairwise fairness.
 
-- title: Selected Publications
+- title: Publications and Preprints
   type: time_table
   contents:
-    - title: "Neural Spatio Temporal Point Processes: Trends and Challenges"
-      institution: TMLR
+    - title: "Neural Spatiotemporal Point Processes: Trends and Challenges"
+      institution: Transactions on Machine Learning Research (TMLR)
       year: 2025
-    - title: "X Hacking: The Threat of Misguided AutoML"
-      institution: ICML
+    - title: "X-Hacking: The Threat of Misguided AutoML"
+      institution: International Conference on Machine Learning (ICML)
       year: 2025
-    - title: "Graph Agnostic Causal Bayesian Optimisation"
-      institution: NeurIPS BDU Workshop
-      year: 2024
+    - title: "Had Enough of Experts? Elicitation and Evaluation of Bayesian Priors from Large Language Models"
+      institution: Stat 14(2), e70054
+      year: 2025
+    - title: "Chaotic and complex dynamics expose the limits of counterfactual reasoning"
+      institution: Scientific Reports 16, Article 16978
+      year: 2026
+    - title: "Linear-LLM-SCM: Benchmarking LLMs for Coefficient Elicitation in Linear-Gaussian Causal Models"
+      institution: Structured Data 4 Health Workshop at ICML
+      year: 2026
+    - title: "Co-Exploration and Co-Exploitation via Shared Structure in Multi-Task Bandits"
+      institution: European Workshop on Reinforcement Learning (EWRL)
+      year: 2026
+    - title: "Distributionally Robust Warm-start for a Population of Bandits"
+      institution: European Workshop on Reinforcement Learning (EWRL)
+      year: 2026
+    - title: "Rethinking Counterfactuals: Hidden Assumptions and Practical Pitfalls"
+      institution: CREST
+      year: 2026
+    - title: "CLAM: Causal Spatial Disaggregation to Infer Local Effects From Coarse Data"
+      institution: NeurIPS CausScien Workshop (equal contribution)
+      year: 2025
+    - title: "SQUID: A Bayesian Approach for Physics-Informed Event Modeling"
+      institution: NeurIPS Workshop on Differentiable Systems and Scientific ML
+      year: 2025
     - title: "Peculiarities of Counterfactual Point Process Generation"
-      institution: STCausal Workshop at ACM SIGSPATIAL
+      institution: ACM SIGSPATIAL STCausal Workshop
+      year: 2024
+    - title: "Graph Agnostic Causal Bayesian Optimisation"
+      institution: NeurIPS BDU Workshop (equal contribution)
+      year: 2024
+    - title: "Flexible Group Fairness Metrics for Survival Analysis"
+      institution: DSHealth Workshop at KDD
+      year: 2022
+    - title: "HawkesNest: A Multi-Axis Benchmark for Spatio-Temporal Pattern Complexity"
+      institution: Preprint
+      year: 2025
+    - title: "Challenges and Solutions for Bandits in the Wild: Warm-Started Mixture Bandits for Cross-Cohort Slate Recommendation"
+      institution: Preprint (equal contribution)
+      year: 2026
+    - title: "Had Enough of Experts? Elicitation and Evaluation of Bayesian Priors from Large Language Models"
+      institution: NeurIPS BDU Workshop; related to the 2025 Stat article
       year: 2024
 
 - title: Honors and Awards
-  type: time_table
+  type: list
   contents:
-    - year: 2021
-      items:
-        - Selected for Julia Summer of Code for project Fairness.jl
-        - Awarded institutional funding of 50,000 INR for a reinforcement-learning traffic control system
-        - Won Hult Prize India and represented India at the Castle Accelerator
+    - Selected for the Reinforcement Learning Summer School (RLSS) 2026 and Machine Learning Summer School (MLSS) 2026.
+    - "Third place, MLSS Hackathon: NO-BEAR (bandit-based LLM resource allocation for automated science)."
+    - RPTU Research Stipend (€5,400), Apr-Sep 2023.
+    - Julia Summer of Code award (USD 1,200), 2021; CSS@ICLR project funding (USD 500), 2022.
+    - Hult Prize India winner, 2021; represented India at the Castle Accelerator.
 
-- title: Teaching and Service
+- title: Teaching
   type: time_table
   contents:
     - title: Guest Lecturer
       institution: Collaborative Intelligence, RPTU Kaiserslautern
       year: Jan 2024 - May 2024
       description:
-        - Delivered lectures on human-in-the-loop learning and active learning.
+        - Lectured on human-in-the-loop learning and active learning, designed coursework, and mentored projects.
     - title: Head Teaching Assistant
       institution: Neural Networks and Fuzzy Logic, BITS Pilani
       year: Aug 2022 - Dec 2022
       description:
-        - Led a team of 12 TAs and designed assignments across ML, CV, NLP, and RL.
-    - title: Reviewer and Organizer
-      institution: AAAI 2025, GIScience 2025 STCausal, STAR Reading Group, DSA Research Exchange
-      year: 2024 - Present
+        - Led 12 teaching assistants and coordinated laboratories, grading, and assignments.
+    - title: Teaching Assistant
+      institution: Neural Networks and Fuzzy Logic, BITS Pilani
+      year: Jan 2022 - May 2022
       description:
-        - Reviewing and organizing community-facing research activities around causality and event modeling.
+        - Assessed work for 120 students, led practical workshops, and mentored three student teams.
+
+- title: Academic Service and Leadership
+  type: list
+  contents:
+    - Reviewer for AAAI 2025 and the GIScience 2025 STCausal Workshop.
+    - Co-organizer of the STAR Space-Time Causality Reading Group (2025-present) and DFKI DSA Research Exchange Group (2024-present).
+    - Chair of BITS ACM (2022-2023); previously ML SIG and Special Interest Group Coordinator (2020-2022).
+
+- title: Technical Skills
+  type: list
+  contents:
+    - "Mathematics and Statistics: Probability, statistical inference, optimization, and statistical learning theory."
+    - "Machine Learning: Reinforcement learning, sequential decision-making, probabilistic modeling, and Bayesian machine learning."
+    - "Causal Inference: Causal graphical models, do-calculus, causal discovery and inference, and counterfactual reasoning."
+    - "Computational Tools: Python, Julia, LaTeX, Lean (basic), numerical simulations, and experimental evaluation."
