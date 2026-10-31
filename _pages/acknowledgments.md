@@ -24,7 +24,7 @@ This page is for people who have been generous with their time, ideas, encourage
     <p>For giving me the much-needed encouragement on my first project. In every interaction since, he has given me a great deal of confidence in my ideas and has always been very kind.</p>
   </a>
 
-  <a class="curated-item curated-link-card" href="https://www.hpims.org/team/stefan-konigorski/" target="_blank" rel="noopener noreferrer">
+  <a class="curated-item curated-link-card" href="https://www.dife.de/en/contact-persons/stefan-konigorski/" target="_blank" rel="noopener noreferrer">
     <p class="curated-meta">Prof. Stefan Konigorski</p>
     <p>For his technical advice, his calm and supportive presence, and his structured feedback, which has helped me across several projects.</p>
   </a>
@@ -44,7 +44,7 @@ This page is for people who have been generous with their time, ideas, encourage
     <p>For being incredibly generous with his time, for his kind feedback and great ideas, and for mentorship that helped me learn a lot of very interesting theory in a short time.</p>
   </a>
 
-  <a class="curated-item curated-link-card" href="https://dsa.dfki.de/team/members/admin/" target="_blank" rel="noopener noreferrer">
+  <a class="curated-item curated-link-card" href="https://sebastian.vollmer.ms/" target="_blank" rel="noopener noreferrer">
     <p class="curated-meta">Prof. Sebastian Vollmer</p>
     <p>For giving me the stage to grow and for creating several opportunities for me in the early stages of my research.</p>
   </a>

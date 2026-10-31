@@ -1,6 +1,6 @@
 # Sumantrak Mukherjee
 
-I am a researcher at the [German Research Center for Artificial Intelligence (DFKI)](https://www.dfki.de/), where I work in the [Data Science and its Applications](https://dsa.dfki.de/) group under [Prof. Sebastian Vollmer](https://dsa.dfki.de/team/members/admin/).
+I am a researcher at the [German Research Center for Artificial Intelligence (DFKI)](https://www.dfki.de/), where I work in the [Data Science and its Applications](https://dsa.dfki.de/) group under [Prof. Sebastian Vollmer](https://sebastian.vollmer.ms/).
 
 My research is mainly about sequential decision-making under uncertainty. I am particularly interested in multi-armed bandits, uncertainty quantification, and causal methods for decision-making. Earlier, I also worked on spatio-temporal event modeling.
 

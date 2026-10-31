@@ -28,7 +28,7 @@ latest_posts:
   <p class="home-aside">
     I am currently a Junior Researcher at <a href="https://www.dfki.de/web" target="_blank" rel="noopener noreferrer">DFKI</a> in the
     <a href="https://dsa.dfki.de/" target="_blank" rel="noopener noreferrer">Data Science and its Applications</a> group, where I work under
-    <a href="https://dsa.dfki.de/team/members/admin/" target="_blank" rel="noopener noreferrer">Prof. Sebastian Vollmer</a>.
+    <a href="https://sebastian.vollmer.ms/" target="_blank" rel="noopener noreferrer">Prof. Sebastian Vollmer</a>.
     I graduated from <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener noreferrer">BITS Pilani</a> in 2023 with a degree in
     Electronics and Instrumentation Engineering. Outside research, I like watching and discussing movies, travelling, and cooking new dishes when I am not too tired.
     I also keep a quiet <a href="{{ '/acknowledgments/' | relative_url }}">acknowledgments page</a> for people who have been especially kind to me.
